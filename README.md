@@ -29,5 +29,13 @@ Here are a few popular NLP models:
 
 - *Transformers:* Transformers are a type of deep neural network architecture that has shown excellent performance in various NLP tasks. Models like BERT, RoBERTa, and GPT-2 are pre-trained transformers that can be fine-tuned for specific downstream tasks, such as salary prediction based on job descriptions.
 
+- *fastText* can also be used for salary prediction based on job descriptions. fastText is an extension of the Word2Vec model that can efficiently train word embeddings for large datasets. It can handle out-of-vocabulary words and can also model subword information.
+
+To use fastText for salary prediction, you can train word embeddings on your job description data using the fastText algorithm. You can then use these embeddings as features in a machine learning model to predict salaries. For example, you can use logistic regression or SVM with fastText embeddings as input features to predict salary ranges.
+
+One advantage of fastText is its efficiency in handling large datasets. It can handle millions or billions of words and can train embeddings quickly, making it a good choice for large-scale salary prediction projects.
+
+Overall, fastText can be a good choice for salary prediction based on job descriptions, especially if you have a large dataset and want to train word embeddings efficiently.
+
 It is a good idea to start with a simple model like BoW or TF-IDF and gradually move on to more complex models like word embeddings or transformers if needed.
 
