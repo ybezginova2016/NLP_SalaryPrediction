@@ -1,8 +1,25 @@
 # NLP models for salary prediction based on job description
 
+### Dataset Description
+
+- vacancies_train.csv - the training set
+- vacancies_test.csv - the test set
+- sample_submission.csv - a sample submission file in the correct format
+
+### Features:
+- name - название вакансии
+- experience - опыт работы, требуемый от соискателя [категориальный]
+- schedule - расписание [категориальный]
+- employment - вид занятости [категориальный]
+- description - непосредственно описание вакансии
+- key_skills - ключевые навыки в формате python-списка (много пропусков)
+- salary - целевая переменная (зарплата)
+
+**********************************************************************************************
+
 There are many NLP models available that can be used for salary prediction based on job description. However, the choice of model will depend on various factors such as the size and complexity of your dataset, the type of prediction task you want to perform, and the computational resources available to you.
 
-Here are a few popular NLP models that you can consider:
+Here are a few popular NLP models:
 
 - *Bag-of-Words (BoW):* BoW is a simple and commonly used model for text classification tasks. It represents each document as a bag of its words, ignoring their order but keeping track of their frequency. You can use BoW with a variety of machine learning algorithms such as logistic regression, SVM, or naive Bayes.
 
