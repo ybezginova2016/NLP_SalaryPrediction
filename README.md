@@ -1,21 +1,18 @@
-# NLP models for salary prediction based on job description
+# NLP: Salary predictions based on the job description
 
-### Dataset Description
+### Project Goal
+To predict the salary level based on the vacancy description.
 
-- vacancies_train.csv - the training set
-- vacancies_test.csv - the test set
-- sample_submission.csv - a sample submission file in the correct format
+### Variables Description
+* ```name``` - название вакансии
+* ```experience``` - опыт работы, требуемый от соискателя [категориальный]
+* ```schedule``` - расписание [категориальный]
+* ```employment``` - вид занятости [категориальный]
+* ```description``` - непосредственно описание вакансии
+* ```key_skills``` - ключевые навыки в формате python-списка (много пропусков)
+* ```salary``` - целевая переменная (зарплата)
 
-### Features:
-- name - название вакансии
-- experience - опыт работы, требуемый от соискателя [категориальный]
-- schedule - расписание [категориальный]
-- employment - вид занятости [категориальный]
-- description - непосредственно описание вакансии
-- key_skills - ключевые навыки в формате python-списка (много пропусков)
-- salary - целевая переменная (зарплата)
-
-**********************************************************************************************
+### Project Methodology
 
 There are many NLP models available that can be used for salary prediction based on job description. However, the choice of model will depend on various factors such as the size and complexity of your dataset, the type of prediction task you want to perform, and the computational resources available to you.
 
@@ -37,5 +34,8 @@ One advantage of fastText is its efficiency in handling large datasets. It can h
 
 Overall, fastText can be a good choice for salary prediction based on job descriptions, especially if you have a large dataset and want to train word embeddings efficiently.
 
-It is a good idea to start with a simple model like BoW or TF-IDF and gradually move on to more complex models like word embeddings or transformers if needed.
-
+### Data
+Link to the dataset is [here](https://drive.google.com/drive/folders/1u-9QPp7107NYN729nisHSnQ9guT8-5kT?usp=sharing).
+- vacancies_train.csv - the training set
+- vacancies_test.csv - the test set
+- sample_submission.csv - a sample submission file in the correct format
