@@ -36,6 +36,6 @@ Overall, fastText can be a good choice for salary prediction based on job descri
 
 ### Data
 Link to the dataset is [here](https://drive.google.com/drive/folders/1u-9QPp7107NYN729nisHSnQ9guT8-5kT?usp=sharing).
-- vacancies_train.csv - the training set
-- vacancies_test.csv - the test set
-- sample_submission.csv - a sample submission file in the correct format
+- ```vacancies_train.csv``` - the training set
+- ```vacancies_test.csv``` - the test set
+- ```sample_submission.csv``` - a sample submission file in the correct format
